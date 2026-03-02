@@ -23,11 +23,9 @@
 
 | Tool | Role |
 |---|---|
-| **[CopilotKit](https://copilotkit.ai/)** | Powers the in-app AI copilot — renders agent activity, inline edits, and user interactions via `@copilotkit/react-ui` |
-| **[GenUI / AG-UI](https://github.com/ag-ui-protocol/ag-ui)** | Agent-to-User Interface protocol — streams live agent state and renders dynamic UI components in real time |
-| **[A2UI](https://a2ui.dev/)** | Agent-to-Agent UI protocol — enables structured communication between AI agents and the frontend |
-| **[OpenClaw](https://openclaw.ai/)** | Multi-step workflow orchestration and intelligent task routing |
-| **[Wordware](https://wordware.ai/)** | LLM prompt logic, decision trees, and business rules |
+| **[CopilotKit](https://copilotkit.ai/)** | Powers the in-app AI copilot — chat interface, agent actions, and readable context via `@copilotkit/react-core` & `@copilotkit/react-ui` |
+| **[OpenClaw](https://openclaw.ai/)** | Backend agent runtime (`clawg-ui`) — handles multi-step workflow orchestration and intelligent task routing |
+| **[Wordware](https://wordware.ai/)** | LLM prompt logic and business rules powering the OpenClaw agent |
 
 ### ⚙️ Frontend
 
