@@ -24,7 +24,8 @@
 | Tool | Role |
 |---|---|
 | **[CopilotKit](https://copilotkit.ai/)** | Powers the in-app AI copilot — chat interface, agent actions, and readable context via `@copilotkit/react-core` & `@copilotkit/react-ui` |
-| **[OpenClaw](https://openclaw.ai/)** | Backend agent runtime (`clawg-ui`) — handles multi-step workflow orchestration and intelligent task routing |
+| **[AG-UI](https://github.com/ag-ui-protocol/ag-ui)** | Agent-to-UI streaming protocol (`@ag-ui/core`) — used by `clawg-ui` to connect CopilotKit to the OpenClaw backend |
+| **[OpenClaw](https://openclaw.ai/)** | Backend agent runtime — the `clawg-ui` plugin exposes an AG-UI endpoint that CopilotKit connects to |
 | **[Wordware](https://wordware.ai/)** | LLM prompt logic and business rules powering the OpenClaw agent |
 
 ### ⚙️ Frontend
